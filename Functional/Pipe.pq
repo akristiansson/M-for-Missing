@@ -19,7 +19,7 @@
 
   */
     
-  Pipe = (object as any) => 
+  Pipe = (object as any) as function => 
       let RunPipe = (functions as list ) as any => 
           List.Accumulate(
               functions, 
