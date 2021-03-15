@@ -26,4 +26,4 @@
               object, 
               (state, fun) => fun(state)
           )
-      in Function.From(type function (f as function) as any, RunPipe)
+      in Function.From(type function (fun as function) as any, RunPipe)
